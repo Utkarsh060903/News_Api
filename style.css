@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+nav{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: white;
+    padding-top: 30px;
+}
+
+.navbar{
+    background-color: brown;
+    height: 100px;
+}
+
+.heading{
+    margin-left: 50px;
+}
+
+.form{
+    margin-right: 50px;
+}
+
+.searchBox{
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-right: 20px;
+    border: none;
+    width: 200px;
+}
+
+.searchBtn{
+    padding: 10px 10px;
+    border-radius: 5px;
+    width: 70px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.searchBtn:hover{
+    background-color: rgb(217, 106, 217);
+}
+
+#blog-container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(3,auto);
+}
+
+.blog-card img{
+    width: 300px;
+    height: 150px;
+    margin-left: 20px;
+    border: none;
+}
+
+.blog-card{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    align-items: center;
+}
+
+.blog-card h2{
+    font-weight: 200;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.blog-card p{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
